@@ -1,0 +1,70 @@
+.contact-section {
+  background-color: #f1f5f9;
+  min-height: 100vh; /* Changed from height to min-height for better flexibility */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem; /* Added padding for small screens */
+}
+
+/* Title styles */
+.contact-title {
+  font-size: 1.75rem; /* Adjusted size for smaller screens */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+/* Form styles */
+.contact-form {
+  width: 100%;
+  max-width: 600px; /* Limit form width on larger screens */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem; /* Added padding for smaller screens */
+}
+
+/* Input and textarea styles */
+.contact-input,
+.contact-textarea {
+  width: 80%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 1rem; /* Added font-size for better text readability */
+}
+
+/* Button styles */
+.contact-button {
+  width: 84%;
+  background-color: #1E3E62;
+  color: #fff;
+  padding: 0.5rem 1rem; /* Adjusted padding for better button size */
+  border-radius: 0.375rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+
+.contact-button:hover {
+  transform: translateY(-0.25rem);
+  background-color: #162c47; 
+}
+
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 1.5rem; 
+  }
+
+  .contact-form {
+    padding: 0 1rem; 
+  }
+
+  .contact-button {
+    padding: 0.5rem; 
+}
+}

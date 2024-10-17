@@ -1,0 +1,95 @@
+.header {
+    background-color: #1E3E62; 
+    color: white;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 16px;
+  }
+  
+  .site-title {
+    font-weight: bold;
+    font-size: 1.25rem; 
+  }
+  
+ 
+  .hamburger-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .hamburger-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .navbar {
+    display: none; 
+  }
+  
+  .nav-link {
+    color: white;
+    padding: 4px;
+    padding-bottom: 8px;
+    margin-right: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #cccccc;
+    text-decoration: underline;
+   
+  }
+  
+
+  .mobile-menu {
+    display: block;
+    background-color: #1E3E62; 
+    padding: 16px;
+    margin-top: 8px;
+  }
+  
+  .mobile-menu-link {
+    display: block;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mobile-menu-link:hover {
+    background-color: #333333;
+  }
+  
+
+  @media (min-width: 768px) {
+    .navbar {
+      display: flex; 
+      gap: 24px; 
+    }
+  
+    .hamburger {
+      display: none; 
+    }
+  }
+  

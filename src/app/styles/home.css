@@ -1,0 +1,52 @@
+.hero-section {
+    background-image: url('/main2.jpg');
+    background-size: cover;
+    height: 100vh; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem; 
+    font-weight: bold;
+    color: white;
+    text-decoration:double
+  }
+  
+  .hero-title .highlighted-text {
+    color: #1E3E62; 
+  }
+  
+  .hero-subtitle {
+    margin-top: 16px;
+    font-size: 1.25rem;
+  }
+  
+  .hero-button {
+    background-color: #1E3E62; 
+    color: white;
+    padding: 12px 24px;
+    margin-top: 16px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+  }
+  
+  .hero-button:hover {
+    transform: translateY(-8px); 
+  }
+  
+
+  @media (min-width: 1024px) {
+    .hero-title {
+      font-size: 5rem; 
+    }
+  }
+  
